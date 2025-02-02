@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust when using raw pointers with vectors.  The `bug.rs` file shows how modifying data through a raw pointer after the owning vector has gone out of scope results in undefined behavior. The `bugSolution.rs` file provides a safer and more idiomatic solution using references instead of raw pointers.
